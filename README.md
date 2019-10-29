@@ -1,6 +1,10 @@
 # auto_auth-dnsproxy
 A simple script for auto login in dns-shop proxy network
 
-How to use it:
-1. npm install;
-2. npm start;
+# Как использовать:
+1. Закидываем папку со скриптом куда вам нужно, желательно в корень где нет латиницы;
+2. Открываем в папке командную строку от админа;
+3. npm i - установит все необходимые зависимости;
+4. npm i pm2 -g - установит глобально pm2;
+5. npm i pm2-windows-startup -g - установит глобально утилиту для автозапуска;
+6. 
