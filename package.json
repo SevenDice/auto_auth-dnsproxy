@@ -1,0 +1,15 @@
+{
+  "name": "autoauth_dnsproxy",
+  "version": "1.0.0",
+  "description": "A simple script for auto login in dns-shop proxy network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sevendc",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "puppeteer": "^2.0.0"
+  }
+}
