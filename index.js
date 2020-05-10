@@ -3,7 +3,7 @@ const moment = require('moment');
 
 setTimeout(function getAuth() {
   (async () => {
-    const browser = await puppeteer.launch({headless:true});
+    const browser = await puppeteer.launch({headless: true, ignoreHTTPSErrors: true});
     const page = await browser.newPage();
     await page.goto(''); //link
 
